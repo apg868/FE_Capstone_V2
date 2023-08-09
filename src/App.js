@@ -7,12 +7,12 @@ import './App.css';
 
 function App() {
   return (
-  <App>
+  <body>
     <Header/>
     <Nav/>
     <Main/>
     <Footer/>
-    </App>
+    </body>
   );
 }
 
