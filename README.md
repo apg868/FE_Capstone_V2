@@ -11,3 +11,6 @@ They also provided a guideline in the form of desired text stylings and color pa
 
 ![Colorpallete](https://github.com/apg868/FE_Capstone_V2/assets/123202954/c9598d0f-8cd2-4b34-9eaf-ce4ef66c7c61)
 ![textstyles](https://github.com/apg868/FE_Capstone_V2/assets/123202954/6e71c3da-0ddc-47c7-ae08-0a052674d22f)
+
+
+The rest of the project was entirely self written and styled. Some small creative liberties were taken, so the final version may appear slightly different to the given final prototype shown above.
