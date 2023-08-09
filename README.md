@@ -1,4 +1,4 @@
-Note: This project was guided by Meta's Front End Capstone Course for final course of Meta Front End Cert. This readme will be a follow-along for the development cycle
+Note: This project was guided by Meta's Front End Capstone Course for final course of Meta Front End Cert. This readme will be an outline for the constraints of the development of the final product.
 
 Earliest wireframe of product - ![fe_capstone_wireframe_early](https://github.com/apg868/FE_Capstone_V2/assets/123202954/83ae1dbb-8ef3-401f-8953-1a861d8bfedf)
 
