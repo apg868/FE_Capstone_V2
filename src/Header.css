@@ -1,0 +1,12 @@
+.gridBox {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 2fr 1fr;
+    color: blue;
+  }
+
+  .h1-header {
+    color: orange;
+    background-color: blueviolet;
+    grid-area: ;
+  }
