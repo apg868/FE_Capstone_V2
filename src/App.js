@@ -1,3 +1,5 @@
+import * as React from 'react'
+import { ChakraProvider } from '@chakra-ui/react'
 import logo from './logo.svg';
 import Header from "./Header"
 import Main from "./Main"
@@ -7,12 +9,12 @@ import './App.css';
 
 function App() {
   return (
-  <body>
+    <ChakraProvider>
     <Header/>
-    <Nav/>
+    {/* <Nav/>
     <Main/>
-    <Footer/>
-    </body>
+    <Footer/> */}
+    </ChakraProvider>
   );
 }
 
