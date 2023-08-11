@@ -1,6 +1,6 @@
 import { ChakraBaseProvider, Box, Flex, Text} from "@chakra-ui/react"
-import Hero from "./Hero"
-import Specials from "./Specials"
+import Hero from "./HeroSection/Hero"
+import Specials from "./SpecialsSection/Specials"
 
 
 function Home(){

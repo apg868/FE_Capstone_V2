@@ -1,8 +1,7 @@
 import React from 'react';
-import { HStack, VStack, Image, Box, Text, Flex, ChakraProvider } from "@chakra-ui/react";
-import fontProvider from '../fontProvider';
+import { HStack, VStack, Image, Box, Text, Flex} from "@chakra-ui/react";
 import ReserveButton from './Hero_Button';
-import foodPic from '../assets_folder/icons_assets/restauranfood.jpg'
+import foodPic from '../../assets_folder/icons_assets/restauranfood.jpg'
 
 
 function Hero(){

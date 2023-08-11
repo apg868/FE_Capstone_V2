@@ -1,6 +1,6 @@
 import React from 'react';
 import {Button, Text} from "@chakra-ui/react";
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
+import {Link } from 'react-router-dom'
 
 
 function ReserveButton(){
