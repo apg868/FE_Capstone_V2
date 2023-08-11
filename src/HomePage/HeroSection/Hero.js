@@ -20,7 +20,7 @@ function Hero(){
             paddingRight="10vw"
         >
             <HStack spacing={300} justifyContent="center" paddingTop={4}>
-                <Flex bg="#495E57" boxSize="35vh" position="relative">
+                <Flex bg="#495E57" boxSize="35vh">
                     <VStack spacing={0} align="start">
                         <Text fontFamily="primaryFont" fontWeight="normal" fontSize='4xl' color="#F4CE14" opacity="70%"> Little Lemon </Text>
                         <Text fontFamily="primaryFont" fontWeight="normal" fontSize='3xl' color="white" marginTop={-4} opacity="85%"> Chicago</Text>

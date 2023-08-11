@@ -6,7 +6,7 @@ import {Link } from 'react-router-dom'
 function MenuButton(){
 
     return(
-        <Button borderRadius={8} bg="#F4C430" marginTop={0} size="lg">
+        <Button borderRadius={8} bg="#F4C430" size="lg">
           <Text fontFamily="secondaryFont" fontWeight="bold" fontSize="md">
             <Link to="/menu">Online Menu</Link>
           </Text>

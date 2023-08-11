@@ -10,7 +10,6 @@ function App() {
   return (
     <ChakraProvider theme={fontProvider}>
       <NavBar/>
-      <Footer/>
     </ChakraProvider>
   );
 }
