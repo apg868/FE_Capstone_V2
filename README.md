@@ -13,4 +13,4 @@ They also provided a guideline in the form of desired text stylings and color pa
 ![textstyles](https://github.com/apg868/FE_Capstone_V2/assets/123202954/6e71c3da-0ddc-47c7-ae08-0a052674d22f)
 
 
-The rest of the project was entirely self written and styled. Some small creative liberties were taken, so the final version may appear slightly different to the given final prototype shown above.
+The rest of the project was entirely self written and styled. Some creative liberties were taken, so the final version may appear different to the given final prototype shown above. This is especially true for the areas of the site that were not given guides. Also note that this website is not mobile responsive. While this can be done, the additional time it would take is not something I intend to pursue for this project.
