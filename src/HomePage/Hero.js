@@ -1,6 +1,6 @@
 import React from 'react';
 import { HStack, VStack, Image, Box, Text, Flex, ChakraProvider } from "@chakra-ui/react";
-import fontProvider from './fontProvider';
+import fontProvider from '../fontProvider';
 import ReserveButton from './Hero_Button';
 
 

@@ -2,7 +2,7 @@ import React from 'react';
 import {Button, Text, ChakraProvider } from "@chakra-ui/react";
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
 
-import fontProvider from './fontProvider';
+import fontProvider from '../fontProvider';
 
 function ReserveButton(){
 

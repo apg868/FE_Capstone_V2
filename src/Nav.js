@@ -1,14 +1,10 @@
 import * as React from 'react'
-import Nav from "./Nav"
-import Main from "./Main"
-import Hero from "./Hero"
-import Footer from "./Footer"
 import './App.css';
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
 import { HStack, Image, Text, Flex, ChakraProvider } from "@chakra-ui/react";
 import logomain from "./assets_folder/icons_assets/Logo.svg"
-import Home from "./Home"
-import About from "./About"
+import Home from "./HomePage/Home"
+import About from "./AboutPage/About"
 import Reservations from "./Reservations"
 import fontProvider from './fontProvider'
 
