@@ -8,7 +8,7 @@ function ReserveButton(){
     return(
         <ChakraProvider theme={fontProvider}>
         <Button borderRadius={10} bg="#F4CE14" marginTop={7} size="md">
-             <Text fontFamily="fontPrimary" fontWeight="medium" fontSize="md">
+             <Text fontFamily="fontPrimary" fontWeight="bold" fontSize="md">
             Reserve a Table!
             </Text>
         </Button>
