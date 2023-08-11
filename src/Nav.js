@@ -9,6 +9,7 @@ import { HStack, Image, Text, Flex, ChakraProvider } from "@chakra-ui/react";
 import logomain from "./assets_folder/icons_assets/Logo.svg"
 import Home from "./Home"
 import About from "./About"
+import Reservations from "./Reservations"
 import fontProvider from './fontProvider'
 
 function NavBar(){
@@ -20,13 +21,14 @@ function NavBar(){
         <Image boxSize='inherit' src={logomain} alt="Main_logo" paddingRight={40} />
         <Text fontFamily="mainFont" fontWeight="normal" fontSize='2xl' paddingTop={1}> <Link to="/"> Home </Link> </Text>
         <Text fontFamily="mainFont" fontWeight="normal" fontSize='2xl' paddingTop={1}><Link to="/about"> About </Link> </Text>
+        <Text fontFamily="mainFont" fontWeight="normal" fontSize='2xl' paddingTop={1}><Link to="/reservations"> Reservations </Link> </Text>
       </HStack>
     </Flex>
     <Routes> {/*Routes to various homepages */}
       <Route path="/" element={<Home/>}/>
       <Route path="/about" element={<About/>}/>
-      {/* <Route path="/menu" element={<Menu/>}/>
       <Route path="/reservations" element={<Reservations/>}/>
+      {/* <Route path="/menu" element={<Menu/>}/>
       <Route path="/about" element={<OrderOnline/>}/>
       <Route path="/login" element={<Login/>}/> */}
     </Routes>
