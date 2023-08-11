@@ -4,7 +4,7 @@ import { extendTheme } from '@chakra-ui/react';
 
 const fontProvider = extendTheme({
   fonts: {
-    mainFont: "'Markazi Text', sans-serif",
+    primaryFont: "'Markazi Text', sans-serif",
     secondaryFont: "'Karla', sans-serif",
   },
   fontWeights: {
