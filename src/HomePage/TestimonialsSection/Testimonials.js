@@ -1,5 +1,8 @@
 import React from "react";
 import { VStack, HStack, Image, Text, Box } from "@chakra-ui/react";
+import TestimonialsFrame from "./TestimonialsFrame";
+import testimonial_image_1 from "../../assets_folder/LLlogo1.jpg"
+
 
 function Testimonials(){
     return(
@@ -15,9 +18,9 @@ function Testimonials(){
     paddingTop={100}
     spacing={100}
     >
-    <Text fontFamily="primaryFont" fontSize="5xl" fontWeight="normal" color="black"> Testimonials ! </Text>
+    <Text fontFamily="secondaryFont" fontSize="5xl" fontWeight="normal" color="black"> Testimonials ! </Text>
     <HStack>
-        <Text> filler</Text>
+        <TestimonialsFrame name="lemon" image={testimonial_image_1} rating="5" reviewText="wow what a delicious time"/>
     </HStack>
 
     </VStack>
