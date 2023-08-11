@@ -12,7 +12,7 @@ import fontProvider from './fontProvider';
 function NavBar(){
     return(
     <BrowserRouter>
-     <Flex position="relative" top={0} left={0} right={0} translateY={0} bg='white' w='100%' h="10vh"> {/*flexbox for styling of navbar. Routes included below */}
+     <Flex position="sticky" top={0} left={0} right={0} translateY={0} bg='white' w='100%' h="10vh" style={{zIndex:1}}> {/*flexbox for styling of navbar. Routes included below */}
       <HStack spacing={7} paddingLeft="20vw">
         <Image boxSize='inherit' src={logomain} alt="Main_logo" paddingRight={40} />
         <Text fontFamily="primaryFont" fontWeight="normal" fontSize='xl' paddingTop={1}> <Link to="/"> Home </Link> </Text>

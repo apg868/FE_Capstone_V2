@@ -10,12 +10,12 @@ function SpecialsFrame(props) {
 
   return (
     <VStack spacing={0}>
-      <Box bg={`rgba(128, 128, 128, 0.2)`} width="15vw">
-        <Image src={image} boxSize="15vw" borderTopRadius={8} />
-            <VStack spacing={9} padding={2}>
+        <Image src={image} width="15vw" height="20vh" borderTopRadius={8} />
+        <Box bg={`rgba(128, 128, 128, 0.2)`} width="15vw" >
+            <VStack spacing={12} padding={2}>
                 <HStack spacing={14}>
-                    <Text fontFamily="primaryFont" fontSize="xl"> {props.name} </Text>
-                    <Text fontFamily="primaryFont" color="orange" fontSize="lg"> {props.price} </Text>
+                    <Text fontFamily="primaryFont" fontSize="xl" fontWeight="bold"> {props.name} </Text>
+                    <Text fontFamily="primaryFont" color="orange" fontSize="lg" fontWeight="bold"> {props.price} </Text>
                 </HStack>
                 <Text fontFamily="fontSecondary" fontSize="sm" color="#36454F" marginLeft={2} marginRight={2}> {props.description} </Text>
                 {button}
