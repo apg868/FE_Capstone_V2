@@ -6,7 +6,7 @@ import stockTwo from "../../assets_folder/Test_Stocks/stock2.jpg"
 import stockThree from "../../assets_folder/Test_Stocks/stock3.jpg"
 import stockFour from "../../assets_folder/Test_Stocks/stock4.jpg"
 import stockFive from "../../assets_folder/Test_Stocks/stock5.jpg"
-import lemonIcon from "../../assets_folder/LLlogo1.jpg"
+import lemonIcon from "../../assets_folder/logoalt.png"
 
 
 function Testimonials(){
@@ -19,14 +19,15 @@ function Testimonials(){
     right={0}
     bg='white'
     w='100%'
-    h="80vh"
+    h="90vh"
     paddingTop={100}
+    paddingBottom={300}
     spacing={100}
     >
-    <HStack>
-    <Image src={lemonIcon} boxSize={100}/>
-    <Text fontFamily="secondaryFont" fontSize="5xl" fontWeight="normal" color="black"> See our authentic customer testimonials ! </Text>
-    <Image src={lemonIcon} boxSize={100}/>
+    <HStack spacing={8}>
+    <Image src={lemonIcon} width="140px" height="40px"/>
+    <Text fontFamily="secondaryFont" fontSize="5xl" fontWeight="normal" color="#36454F"> See our authentic customer testimonials ! </Text>
+    <Image src={lemonIcon} width="140px" height="40px"/>
     </HStack>
     <HStack spacing={12}>
         <TestimonialsFrame name="Boris" image={stockOne} rating="5" reviewText='"Wow what a delicious time! Only regret was not buying more food!"'/>

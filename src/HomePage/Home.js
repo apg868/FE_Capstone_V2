@@ -3,6 +3,7 @@ import Hero from "./HeroSection/Hero"
 import Specials from "./SpecialsSection/Specials"
 import Footer from "../Footer"
 import Testimonials from "./TestimonialsSection/Testimonials"
+import Bio from "./BioSection/Bio"
 
 
 function Home(){
@@ -11,6 +12,7 @@ function Home(){
         <Hero/>
         <Specials/>
         <Testimonials/>
+        <Bio/>
         <Footer/>
         </>
     )
