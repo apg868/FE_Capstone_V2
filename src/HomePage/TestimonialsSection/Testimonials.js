@@ -1,7 +1,12 @@
 import React from "react";
 import { VStack, HStack, Image, Text, Box } from "@chakra-ui/react";
 import TestimonialsFrame from "./TestimonialsFrame";
-import testimonial_image_1 from "../../assets_folder/LLlogo1.jpg"
+import stockOne from "../../assets_folder/Test_Stocks/stock1.jpg"
+import stockTwo from "../../assets_folder/Test_Stocks/stock2.jpg"
+import stockThree from "../../assets_folder/Test_Stocks/stock3.jpg"
+import stockFour from "../../assets_folder/Test_Stocks/stock4.jpg"
+import stockFive from "../../assets_folder/Test_Stocks/stock5.jpg"
+import lemonIcon from "../../assets_folder/LLlogo1.jpg"
 
 
 function Testimonials(){
@@ -12,15 +17,23 @@ function Testimonials(){
     top={0}
     left={0}
     right={0}
-    bg='gray'
+    bg='white'
     w='100%'
     h="80vh"
     paddingTop={100}
     spacing={100}
     >
-    <Text fontFamily="secondaryFont" fontSize="5xl" fontWeight="normal" color="black"> Testimonials ! </Text>
     <HStack>
-        <TestimonialsFrame name="lemon" image={testimonial_image_1} rating="5" reviewText="wow what a delicious time"/>
+    <Image src={lemonIcon} boxSize={100}/>
+    <Text fontFamily="secondaryFont" fontSize="5xl" fontWeight="normal" color="black"> See our authentic customer testimonials ! </Text>
+    <Image src={lemonIcon} boxSize={100}/>
+    </HStack>
+    <HStack spacing={12}>
+        <TestimonialsFrame name="Boris" image={stockOne} rating="5" reviewText='"Wow what a delicious time! Only regret was not buying more food!"'/>
+        <TestimonialsFrame name="Richard" image={stockTwo} rating="4.5" reviewText='"The lemon tart is just like my nonna used to make!'/>
+        <TestimonialsFrame name="Olivia" image={stockThree} rating="5" reviewText='"Try the Bruschetta! It is some of the best in town!"'/>
+        <TestimonialsFrame name="Emily" image={stockFour} rating="5" reviewText='I had a wonderful time. The service was impeccable.'/>
+        <TestimonialsFrame name="Don" image={stockFive} rating="5" reviewText='"Incredibly authentic, I really enjoyed this"'/>
     </HStack>
 
     </VStack>

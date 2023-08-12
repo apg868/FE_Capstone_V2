@@ -13,16 +13,17 @@ const name = props.name
 //     <FaStar key={index} />
 // ));
     return(
-<VStack spacing={3}>
-<HStack spacing={2}>
-<Text fontFamily="primaryFont" fontSize="s" fontWeight="normal"> Rating: {props.rating}/5 </Text>
+<VStack spacing={3} border="2px" borderColor="black" width="150px" height="300px" borderRadius={20}>
+<HStack spacing={1}>
+<FaStar fontSize="18px"/>
+<Text fontFamily="primaryFont" fontSize="lg" fontWeight="normal"> Rating: {props.rating}/5 </Text>
 {/* {starIcons} */}
 </HStack>
 <HStack spacing={3}>
-<Image src={image} boxSize="5vh"/>
-<Text fontFamily="primaryFont" fontSize="xs" fontWeight="normal"> {props.name} </Text>
+<Image src={image} boxSize="10vh" borderRadius={50}/>
+<Text fontFamily="primaryFont" fontSize="s" fontWeight="normal" > {props.name} </Text>
 </HStack>
-<Text fontFamily="secondaryFont" fontSize="md" fontWeight="normal"></Text>
+<Text fontFamily="secondaryFont" fontSize="md" fontWeight="normal" marginLeft={4}> {props.reviewText} </Text>
 </VStack>
     )
 }

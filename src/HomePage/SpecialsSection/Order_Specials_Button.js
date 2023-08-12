@@ -1,7 +1,7 @@
 import React from 'react';
 import {Button, Text} from "@chakra-ui/react";
 import {Link } from 'react-router-dom'
-import { FaHamburger, FaSuitcase } from 'react-icons/fa';
+import { FaHamburger} from 'react-icons/fa';
 
 
 function Order_Specials_Button(){
