@@ -53,7 +53,7 @@ function BookingForm({ availableTimes, updateTimes }) {
 
           <FormControl mt={2}>
             <FormLabel>Number of Guests:</FormLabel>
-            <Input type="number" value={guests} onChange={(e) => setGuests(e.target.value)} required />
+            <Input type="number" value={guests} onChange={(e) => setGuests(e.target.value)} required min={1} />
           </FormControl>
 
           <FormControl mt={2}>
