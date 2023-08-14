@@ -14,3 +14,5 @@ They also provided a guideline in the form of desired text stylings and color pa
 
 
 The rest of the project was entirely self written and styled. Some creative liberties were taken, so the final version may appear different to the given final prototype shown above. This is especially true for the areas of the site that were not given guides. Also note that this website is not mobile responsive. While this can be done, the additional time it would take is not something I intend to pursue for this project.
+
+There are some unfinished sections, such as the menu page, and the about page. Again, these are not within the scope of the project, though could've been completed given more attention
