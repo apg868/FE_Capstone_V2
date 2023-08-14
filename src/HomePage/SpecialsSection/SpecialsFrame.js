@@ -10,7 +10,7 @@ function SpecialsFrame(props) {
 
   return (
     <VStack spacing={0}>
-        <Image src={image} width="15vw" height="20vh" borderTopRadius={8} />
+        <Image src={image} width="15vw" height="20vh" borderTopRadius={8} alt="picture of food"/>
         <Box bg={`rgba(128, 128, 128, 0.2)`} width="15vw" height="300px" >
             <VStack spacing={12} padding={2}>
                 <HStack spacing={14}>

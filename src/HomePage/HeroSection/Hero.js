@@ -29,7 +29,7 @@ function Hero(){
                     </VStack>
                 </Flex>
                 <Box boxSize="25vh">
-                <Image position="absolute" src={foodPic} boxSize="45vh" borderRadius={8}>
+                <Image position="absolute" src={foodPic} boxSize="45vh" borderRadius={8} alt="picture of sushi from restaurant">
                 </Image>
                 </Box>
 

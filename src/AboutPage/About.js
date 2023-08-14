@@ -8,10 +8,9 @@ function About(){
         left={0}
         right={0}
         translateY={0}
-        bg='blue'
+        bg='white'
         w='100%'
         h="50vh"
-        borderColor="blue"
         paddingLeft='20vw'
       >
         <h1> About page placeholder text </h1>

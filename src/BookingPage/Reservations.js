@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import BookingForm from "./BookingForm";
-    import axios from "axios";
+import axios from "axios";
+import Footer from "../Footer";
 
 function Reservations() {
   const [availableTimes, setAvailableTimes] = useState([]);
@@ -24,11 +25,14 @@ function Reservations() {
   };
 
   return (
+    <>
     <BookingForm
       availableTimes={availableTimes}
       initializeTimes={initializeTimes}
       updateTimes={updateTimes}
-    />
+     />
+     <Footer/>
+      </>
   );
 }
 

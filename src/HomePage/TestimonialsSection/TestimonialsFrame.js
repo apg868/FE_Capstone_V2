@@ -20,7 +20,7 @@ const name = props.name
 {/* {starIcons} */}
 </HStack>
 <HStack spacing={3}>
-<Image src={image} boxSize="10vh" borderRadius={10}/>
+<Image src={image} boxSize="10vh" borderRadius={10} alt="picture of person" />
 <Text fontFamily="primaryFont" fontSize="s" fontWeight="normal" > {props.name} </Text>
 </HStack>
 <Text fontFamily="secondaryFont" fontSize="md" fontWeight="normal" color="#36454F" marginLeft={4}> {props.reviewText} </Text>

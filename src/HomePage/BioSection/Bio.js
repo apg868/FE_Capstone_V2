@@ -18,8 +18,8 @@ function Bio(){
                     Indulge in our curated wine selection, thoughtfully chosen to complement the diverse flavors of our dishes. Whether it's a romantic dinner, a gathering of friends, or a special celebration, Little Lemon invites you to savor each moment in an environment that embodies the spirit of the Mediterranean, creating memories that linger long after the last bite. </Text>
                 </VStack>
                 <HStack spacing={0}>
-                    <Image src={imageOne} boxSize="400px" position="absolute" borderRadius={10} border="1px" borderColor="black" />
-                    <Image src={imageTwo} boxSize="400px" marginLeft="140" marginTop="140" position="relative" border="1px" borderColor="black" borderRadius={10} />
+                    <Image src={imageOne} boxSize="400px" position="absolute" borderRadius={10} border="1px" borderColor="black" alt="background food image" />
+                    <Image src={imageTwo} boxSize="400px" marginLeft="140" marginTop="140" position="relative" border="1px" borderColor="black" borderRadius={10} alt="picture of restaurant" />
                 </HStack>
             </HStack>
 
