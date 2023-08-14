@@ -5,7 +5,7 @@ import { HStack, Image, Text, Flex, ChakraProvider} from "@chakra-ui/react";
 import logomain from "./assets_folder/icons_assets/Logo.svg"
 import Home from "./HomePage/Home"
 import About from "./AboutPage/About"
-import Reservations from "./Reservations"
+import Reservations from "./BookingPage/Reservations.js"
 import Menu from './MenuPage/Menu'
 import fontProvider from './fontProvider';
 
