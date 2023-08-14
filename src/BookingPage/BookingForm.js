@@ -39,7 +39,6 @@ function BookingForm({ availableTimes, updateTimes }) {
           <FormControl mt={2}>
             <FormLabel>Time:</FormLabel>
               <Select value={time} onChange={(e) => {
-                setDate(e.target.value);
                 const newTimes = updateTimes(e.target.value);
                 dispatch({ type: 'SET_TIMES', times: newTimes });}}
                  required>

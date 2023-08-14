@@ -6,6 +6,10 @@ function Reservations() {
         '12:00 PM', '1:00 PM', '2:00 PM', '6:00 PM', '7:00 PM', '8:00 PM'
       ]);
 
+    function initializeTimes() {
+        setAvailableTimes(['12:00 PM', '1:00 PM', '2:00 PM', '6:00 PM', '7:00 PM', '8:00 PM'])
+    }
+
     const updateTimes = (selectedDate) => {
         //returning times regardless of date
         return [
